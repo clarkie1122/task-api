@@ -3,6 +3,7 @@ import { TaskModule } from './task/task.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { typeOrmConfig } from './config/typeorm.config';
 import { GraphQLModule } from '@nestjs/graphql';
+import { ClientsModule } from '@nestjs/microservices';
 
 @Module({
   imports: [
