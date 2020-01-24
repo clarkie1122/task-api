@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { TaskModule } from './task/task.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { typeOrmConfig } from './config/typeorm.config';
 import { GraphQLModule } from '@nestjs/graphql';
-import { ClientsModule } from '@nestjs/microservices';
+
+import { TaskModule } from './task/task.module';
+import { typeOrmConfig } from './config/typeorm.config';
 
 @Module({
   imports: [
